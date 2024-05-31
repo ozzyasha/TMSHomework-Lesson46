@@ -36,7 +36,7 @@ struct ContentView: View {
                 .padding(EdgeInsets(top: 10, leading: 30, bottom: 10, trailing: 30))
                 
                 NavigationLink("Third screen") {
-                    Text("Third screen")
+                    ThirdView()
                 }
                 .font(.title2)
                 .foregroundStyle(Color.black)

@@ -8,6 +8,9 @@
 import SwiftUI
 
 struct SecondView: View {
+    @State
+    private var showDetails = false
+    
     var body: some View {
         ZStack(alignment: .center) {
             Color.yellow.ignoresSafeArea()
@@ -32,13 +35,15 @@ struct SecondView: View {
                     .bold()
                     .padding(.vertical)
                 Button {
-                    // action
+                    showDetails = true
                 } label: {
                     Text("Buy")
                         .foregroundStyle(Color.black)
                         .padding(EdgeInsets(top: 10, leading: 30, bottom: 10, trailing: 30))
                         .background(Color.yellow)
                         .clipShape(RoundedRectangle(cornerSize: CGSize(width: 30, height: 30)))
+                }.navigationDestination(isPresented: $showDetails) {
+                    ThirdView()
                 }
 
                     
