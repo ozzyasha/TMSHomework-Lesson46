@@ -11,15 +11,39 @@ struct ContentView: View {
     var body: some View {
         NavigationStack {
             VStack {
+                Text("Main Screen")
+                    .font(.largeTitle)
+                    .bold()
+                    .offset(CGSize(width: 0.0, height: -80.0))
                 NavigationLink("First screen") {
                     FirstView()
                 }
-                NavigationLink("Screen number 2") {
-                    Text("Second screen")
+                .font(.title2)
+                .foregroundStyle(Color.black)
+                .frame(width: 200, height: 50)
+                .background(Color.yellow)
+                .clipShape(RoundedRectangle(cornerSize: CGSize(width: 30, height: 30)))
+                .padding(EdgeInsets(top: 0, leading: 30, bottom: 10, trailing: 30))
+                
+                NavigationLink("Second screen") {
+                    SecondView()
                 }
-                NavigationLink("Screen number 3") {
+                .font(.title2)
+                .foregroundStyle(Color.black)
+                .frame(width: 200, height: 50)
+                .background(Color.yellow)
+                .clipShape(RoundedRectangle(cornerSize: CGSize(width: 30, height: 30)))
+                .padding(EdgeInsets(top: 10, leading: 30, bottom: 10, trailing: 30))
+                
+                NavigationLink("Third screen") {
                     Text("Third screen")
                 }
+                .font(.title2)
+                .foregroundStyle(Color.black)
+                .frame(width: 200, height: 50)
+                .background(Color.yellow)
+                .clipShape(RoundedRectangle(cornerSize: CGSize(width: 30, height: 30)))
+                .padding(EdgeInsets(top: 10, leading: 30, bottom: 10, trailing: 30))
             }
         }
     }

@@ -12,6 +12,7 @@
 		7A01C4E22C08C53200642DD7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A01C4E12C08C53200642DD7 /* Assets.xcassets */; };
 		7A01C4E52C08C53200642DD7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A01C4E42C08C53200642DD7 /* Preview Assets.xcassets */; };
 		7A01C4EC2C08CB7700642DD7 /* FirstView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A01C4EB2C08CB7700642DD7 /* FirstView.swift */; };
+		7A01C4EE2C09D8B500642DD7 /* SecondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A01C4ED2C09D8B500642DD7 /* SecondView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		7A01C4E12C08C53200642DD7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7A01C4E42C08C53200642DD7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		7A01C4EB2C08CB7700642DD7 /* FirstView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstView.swift; sourceTree = "<group>"; };
+		7A01C4ED2C09D8B500642DD7 /* SecondView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 				7A01C4DD2C08C53000642DD7 /* TMSHomework_Lesson46App.swift */,
 				7A01C4DF2C08C53000642DD7 /* ContentView.swift */,
 				7A01C4EB2C08CB7700642DD7 /* FirstView.swift */,
+				7A01C4ED2C09D8B500642DD7 /* SecondView.swift */,
 				7A01C4E12C08C53200642DD7 /* Assets.xcassets */,
 				7A01C4E32C08C53200642DD7 /* Preview Content */,
 			);
@@ -142,6 +145,7 @@
 			files = (
 				7A01C4E02C08C53000642DD7 /* ContentView.swift in Sources */,
 				7A01C4EC2C08CB7700642DD7 /* FirstView.swift in Sources */,
+				7A01C4EE2C09D8B500642DD7 /* SecondView.swift in Sources */,
 				7A01C4DE2C08C53000642DD7 /* TMSHomework_Lesson46App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
